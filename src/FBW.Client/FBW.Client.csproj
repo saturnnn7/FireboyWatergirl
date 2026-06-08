@@ -25,9 +25,9 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
-    <PackageReference Include="Nez" Version="0.10.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FBW.Shared\FBW.Shared.csproj" />
+    <ProjectReference Include="..\..\lib\Nez\Nez.Portable\Nez.MG38.csproj" />
   </ItemGroup>
 </Project>
