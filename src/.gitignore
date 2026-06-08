@@ -1,0 +1,58 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+*.claude
+
+# .NET secrets
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/secrets.json
+
+# EF Core migrations (optional — we keep migrations)
+# **/Migrations/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Docker
+.dockerignore
+**/docker-compose.override.yml
+
+# Node (for future frontend)
+node_modules/
+dist/
+.env
+.env.local
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+
+# RSA private key — never commit
+**/Keys/private.pem
+
+Keys/
+*.pem
+
+# Repomix
+repomix-output.xml
+repomix-output.txt
+repomix-output.md
+repomix*
